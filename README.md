@@ -7,4 +7,4 @@ Supply samaccountname, or a csv of samaccountnames.
 <#Single User Mode#>\
 Perform-ResetNotify -UserId test.user21 -Comment "This comment must be in quotes. This will appear in the email body in bold letters"\
 <#Bulk Mode#>\
-Perform-ResetNotify -ImportFile ../data/AtRiskUsers.csv -Comment "This comment must be in quotes. This will appear in the email body in bold letters"\
+Perform-ResetNotify -ImportFile ../data/AtRiskUsers.csv -Comment "This comment must be in quotes. This will appear in the email body in bold letters"
