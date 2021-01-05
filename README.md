@@ -3,8 +3,8 @@
 
 Supply samaccountname, or a csv of samaccountnames.
 
-. .\Perform-ResetNotify.ps1/n
-<#Single User Mode#>/n
-Perform-ResetNotify -UserId test.user21 -Comment "This comment must be in quotes. This will appear in the email body in bold letters"/n
-<#Bulk Mode#>/n
-Perform-ResetNotify -ImportFile ../data/AtRiskUsers.csv -Comment "This comment must be in quotes. This will appear in the email body in bold letters"
+. .\Perform-ResetNotify.ps1\
+<#Single User Mode#>\
+Perform-ResetNotify -UserId test.user21 -Comment "This comment must be in quotes. This will appear in the email body in bold letters"\
+<#Bulk Mode#>\
+Perform-ResetNotify -ImportFile ../data/AtRiskUsers.csv -Comment "This comment must be in quotes. This will appear in the email body in bold letters"\
