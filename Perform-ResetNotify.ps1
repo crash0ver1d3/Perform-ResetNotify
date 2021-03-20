@@ -2,7 +2,7 @@
 # Script: Perform-ResetNotify.ps1
 # Date: 2021.1.5
 # Version: 1.5
-# Author: Blake Regan @blake_r38
+# Author: Blake Regan @crash0ver1d3
 # Purpose: This script will take a samaccountname, or list of samaccountnames, and reset the password and send two emails./n
 # One email is cleartext sent to manager, and helpdesk, other staff. The second email gets sent encrypted, with Office Message Encryption./n
 # As this script is written, the encrpytion piece does require Microsoft Exchange, and a transport rule created that matches a regex in email email subject, to apply OME./n
